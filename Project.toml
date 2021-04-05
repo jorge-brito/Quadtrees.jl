@@ -1,13 +1,15 @@
-name = "Quadtree"
+name = "Quadtrees"
 uuid = "f668e113-9f8b-4879-aee4-af57b0614260"
 authors = ["Jorge Pereira <jorge.brito.json@gmail.com> and contributors"]
 version = "0.1.0"
 
-[extras]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-
 [compat]
 julia = "1"
 
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+Alexya = "a0ba0308-c025-49c4-97d8-6cbc8d45a63d"
+Luxor = "ae8d54c2-7ccd-5906-9d76-62fc9837b5bc"
+
 [targets]
-test = ["Test"]
+test = ["Test", "Alexya", "Luxor"]
