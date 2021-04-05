@@ -1,6 +1,6 @@
 name = "Quadtrees"
 uuid = "f668e113-9f8b-4879-aee4-af57b0614260"
-authors = ["Jorge Pereira <jorge.brito.json@gmail.com> and contributors"]
+authors = ["Jorge Pereira <jorge.brito.json@gmail.com>"]
 version = "0.1.0"
 
 [compat]
