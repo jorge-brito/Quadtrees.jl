@@ -8,16 +8,10 @@ Implementation of [Quadtrees](https://en.wikipedia.org/wiki/Quadtree) using the 
 import Pkg; Pkg.add("Quadtrees")
 ```
 
-```julia
-import Pkg; Pkg.add(url = "https://github.com/alexya-projects/Quadtree.git")
-```
+Or
 
 ```julia-REPL
 julia> ] add Quadtrees
-```
-
-```julia-REPL
-julia> ] add https://github.com/alexya-projects/Quadtree.git 
 ```
 
 ## How to use
