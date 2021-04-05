@@ -91,7 +91,7 @@ For example, searching for particles within a range located at
 # s for search
 sx, sy = 5, 10
 sr = 50
-result = search(q, sx, sy, sr)
+result = search(qt, sx, sy, sr)
 ```
 
 The return is an array of the object type that the quadtree contains.
